@@ -33,6 +33,8 @@ table {
     padding: 8px;
     text-align: left;
     border-bottom: 1px solid #ddd;
+    transition: 500ms;
+
   }
   tr:first-child{
     background-color:  rgba(255, 89, 0, 0.4);
@@ -42,7 +44,6 @@ table {
 
   tr:hover td{
     background-color: rgb(248, 116, 0, 0.4);
-    transition: 500ms;
   }
 
 /*                    estilo botones                */
@@ -63,7 +64,7 @@ table {
   .info {background-color: #2196F3;} /* Blue */
   .info:hover {background: #0b7dda;}
   
-  .warning {background-color: #ff9800;} /* Orange */
+  .warning {background-color: #bb9c6d;} /* Orange */
   .warning:hover {background: #e68a00;}
   
   .danger {background-color: #f44336;} /* Red */
